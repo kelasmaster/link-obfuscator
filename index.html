@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link Obfuscator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Link Obfuscator</h1>
+    <p>Enter your link below to obfuscate its destination.</p>
+    <form id="obfuscatorForm">
+      <label for="originalLink">Original Link:</label>
+      <input type="url" id="originalLink" placeholder="https://example.com" required>
+      <button type="submit">Obfuscate</button>
+    </form>
+    <div class="output">
+      <h3>Obfuscated Link:</h3>
+      <textarea id="obfuscatedLink" readonly></textarea>
+      <button id="copyButton">Copy</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
